@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.container {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 80vw;
+  max-width: 600px;
+  min-width: 350px;
+  padding: 60px 30px;
+  border-radius: 10px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.heading {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+input {
+  margin-bottom: 20px;
+  border: none;
+  font-size: 20px;
+  border-bottom: 2px solid #585858;
+  color: #585858;
+  padding: 2px 15px;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 2.4px solid #1e514f;
+}
+
+.wrapper input {
+  width: 75%;
+}
+
+.buttons {
+  display: flex;
+}
+
+button {
+  background-color: #9333ea;
+  border: none;
+  color: #ffffff;
+  margin: 20px auto 0 auto;
+  padding: 7px 40px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#reset-btn {
+  padding: 7px 62px;
+}
+
+#result {
+  background-color: #9333ea;
+  margin-top: 30px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#result div {
+  margin-bottom: 10px;
+}
+
+#result span {
+  font-weight: 500;
+}
+
+@media all and (max-width: 500px) {
+  label {
+    font-size: 16px;
+  }
+
+  select {
+    font-size: 16px;
+    padding: 6px 0;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+}
