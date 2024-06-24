@@ -1,4 +1,4 @@
-let calculateBtn = document.getElementById("calculate-btn");
+let calculateBtn = document.getElementById("calculate");
 let result = document.getElementById("result");
 
 let calculate = () => {
